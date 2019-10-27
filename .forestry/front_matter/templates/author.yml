@@ -19,4 +19,5 @@ fields:
   name: twitter
   label: Twitter
 pages:
+- author/james-vanderbeek.md
 - author/tyler-melnychuk.md
