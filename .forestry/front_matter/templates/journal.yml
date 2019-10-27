@@ -27,11 +27,12 @@ fields:
   name: author
   config:
     source:
-      type: pages
-      section: author
+      type: simple
+      section: ''
       file: data/authors/nichlas-w-andersen.json
     required: true
-    options: []
+    options:
+    - Tyler Melnychuk
   label: Author
   default: tyler-melnychuk.md
 pages:
