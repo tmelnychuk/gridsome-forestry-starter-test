@@ -27,8 +27,8 @@ fields:
   name: author
   config:
     source:
-      type: simple
-      section: ''
+      type: pages
+      section: author
       file: data/authors/nichlas-w-andersen.json
     required: true
     options:
