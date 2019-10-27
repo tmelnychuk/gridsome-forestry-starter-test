@@ -20,6 +20,13 @@ sections:
   match: "**/*.md"
   templates:
   - journal
+- type: directory
+  path: ''
+  label: Author
+  create: all
+  match: "**/*"
+  templates:
+  - author
 - type: document
   path: data/theme.json
   label: Theme config
