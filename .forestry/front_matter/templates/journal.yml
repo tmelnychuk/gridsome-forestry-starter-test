@@ -27,14 +27,13 @@ fields:
   name: author
   config:
     source:
-      type: simple
-      section: authors
+      type: pages
+      section: author
       file: data/authors/nichlas-w-andersen.json
     required: true
-    options:
-    - Nichlas W. Andersen
+    options: []
   label: Author
-  default: Nichlas W. Andersen
+  default: tyler-melnychuk.md
 pages:
 - journal/macos-development-environment.md
 - journal/just-a-quick-test.md
