@@ -23,7 +23,7 @@ sections:
 - type: directory
   path: ''
   label: Author
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - author
