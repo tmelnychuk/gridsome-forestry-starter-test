@@ -29,12 +29,14 @@ fields:
     source:
       type: documents
       section: author
-      file: data/authors/nichlas-w-andersen.json
+      file: author/tyler-melnychuk.md
     required: true
     options:
     - Tyler Melnychuk
   label: Author
-  default: tyler-melnychuk.md
+  default: ''
+  showOnly:
+    field: author
 pages:
 - journal/just-a-quick-test.md
 - journal/one.md
