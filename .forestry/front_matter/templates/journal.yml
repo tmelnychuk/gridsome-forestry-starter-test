@@ -27,7 +27,7 @@ fields:
   name: author
   config:
     source:
-      type: documents
+      type: simple
       section: author
       file: author/tyler-melnychuk.md
     required: true
