@@ -7,7 +7,7 @@
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
       </div>
 
-      <form class="contact-form" name="contact" method="POST" action="https://usebasin.com/f/1256d4988df0.json">
+      <form class="contact-form" name="contact" method="POST" action="https://usebasin.com/f/1256d4988df0">
       <input type="hidden" name="form-name" value="contact" />
   <p hidden>
     <label>
