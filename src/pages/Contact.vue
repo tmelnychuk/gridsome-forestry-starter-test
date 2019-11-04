@@ -7,7 +7,13 @@
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
       </div>
 
-      <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <form class="contact-form" name="contact" method="POST" action="https://usebasin.com/f/1256d4988df0.json">
+      <input type="hidden" name="form-name" value="contact" />
+  <p hidden>
+    <label>
+      Don’t fill this out: <input name="bot-field" />
+    </label>
+  </p>
         <div class="sender-info">
           <div>
             <label for="name" class="label">Your name <input type="text" name="name" /></label>
