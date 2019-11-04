@@ -10,8 +10,8 @@
       <form class="contact-form" name="contact" method="POST" data-netlify="true">
         <div class="sender-info">
           <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
+            <label for="name" class="label">Your name <input type="text" name="name" /></label>
+            
           </div>
           <div>
             <label for="email" class="label">Your email</label>
@@ -24,7 +24,7 @@
           <textarea name="message"></textarea>
         </div>
 
-        <button class="button" type="submit">Submit form</button>
+        <button type="submit" class="button">Submit form</button>
 
       </form>
 
