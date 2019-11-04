@@ -7,8 +7,7 @@
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
       </div>
 
-      <form class="contact-form" name="contact">
-
+      <form class="contact-form" name="contact" method="POST" data-netlify="true">
         <div class="sender-info">
           <div>
             <label for="name" class="label">Your name</label>
@@ -25,7 +24,7 @@
           <textarea name="message"></textarea>
         </div>
 
-        <button class="button">Submit form</button>
+        <button class="button" type="submit">Submit form</button>
 
       </form>
 
