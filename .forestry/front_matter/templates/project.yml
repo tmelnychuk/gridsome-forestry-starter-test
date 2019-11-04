@@ -36,6 +36,7 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/farmer-s-market-illustration.md
 - projects/chelsea-landmark.md
 - projects/3d-graff.md
 - projects/ios-concept.md
