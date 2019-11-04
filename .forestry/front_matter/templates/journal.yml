@@ -34,9 +34,9 @@ fields:
     options:
     - Tyler Melnychuk
   label: Author
-  default: ''
+  default: title
   showOnly:
-    field: author
+    value: title
 pages:
 - journal/just-a-quick-test.md
 - journal/one.md
